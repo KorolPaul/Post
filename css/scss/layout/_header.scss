@@ -1,0 +1,27 @@
+.header {
+    td {
+        padding: 0;
+    }
+
+    &_top {
+        background: $header_bg;
+    
+        td {
+            border: none;
+            padding: 25px 50px;
+            vertical-align: middle;
+
+            & + td {
+                text-align: right;
+            }
+        }
+        img {
+            vertical-align: -15px;
+        }
+    }
+
+
+    &_link {
+        color: $main_color;
+    }
+}

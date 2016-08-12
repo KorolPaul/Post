@@ -1,0 +1,18 @@
+﻿@charset "utf-8";
+
+@import "const";
+@import "templates";
+@import "placeholders";
+
+/*Layout*/
+@media only screen and (max-width: 600px) {
+    @import "layout-mobile/defaults";
+    @import "layout-mobile/content";
+    @import "layout-mobile/footer";
+    @import "layout-mobile/headings";
+    @import "layout-mobile/header";
+    @import "layout-mobile/button";
+    @import "layout-mobile/caption";
+    @import "layout-mobile/social";
+    @import "layout-mobile/layout";
+}

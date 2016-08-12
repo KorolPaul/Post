@@ -1,0 +1,45 @@
+﻿.social {
+
+    td {
+        height: 27px;
+        padding: 0;
+    }    
+    td:nth-child(2) {
+        width: 280px;
+    }
+    &_top {
+        td {
+            height: 72px;
+        }
+    }
+    &_bottom {
+        td {
+            height: 0;
+        }
+    }
+    &_white {
+        background: $content_bg;
+        
+        td {
+            background: $content_bg;
+        }
+    }
+    &_gray {
+        td {
+            background: $footer_bg;
+        }
+    }
+    &_wrapper {
+        text-align: center;
+        padding: 0;
+        white-space: nowrap;
+        background: $footer_bg;
+    }
+    &_link {
+        font-size: 0;
+        line-height: 0;
+    }
+    tr:last-child {
+        background: $footer_bg;
+    }
+}

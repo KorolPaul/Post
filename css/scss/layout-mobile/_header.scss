@@ -1,0 +1,11 @@
+.header {
+    &_top {
+        td {
+            padding-left: $layout_indent__mobile !important;
+            padding-right: $layout_indent__mobile !important;
+        }
+    }
+    &_img {
+        width:  100% !important;
+    }
+}

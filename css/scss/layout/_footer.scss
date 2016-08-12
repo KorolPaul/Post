@@ -1,0 +1,53 @@
+﻿.footer {
+    background: $footer_bg;
+    padding: $layout_indent;
+    &_top {
+        td {
+            width: 25%;
+            padding: 0 0 0 $layout_indent;
+
+            &:first-child {
+                width: 20%;
+            }
+        }
+    }
+    &_bottom {
+        background: $footer_bg;
+
+        td {
+            width: 50%;
+            vertical-align: middle;;
+            padding: 30px $layout_indent 40px;
+        }
+    }
+    &_copyright {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+
+    li {
+        margin: 0;
+    }
+    &_title {
+        color: $text_color;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+    &_link {
+        color: $footer_color;
+        font-size: 14px;
+        line-height: 26px;
+        text-decoration: none;
+    }
+    &_icon {
+        vertical-align: -2px;
+        margin: 0 0 0 3px;
+    }
+}

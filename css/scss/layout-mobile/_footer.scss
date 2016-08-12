@@ -1,0 +1,24 @@
+﻿.footer {
+    min-width: 100%;
+    &_top {
+        td {
+            display: table-row !important;
+        }
+    }
+    &_bottom {
+        padding: 0 !important;
+        tr {
+            display: block !important;
+        }
+        td {
+            display: block !important;
+            padding: $layout_indent__mobile !important;
+            width: auto !important;
+        }
+    }
+}
+
+.footer-menu {
+    margin: 0 0 20px 20px;
+    min-width: 250px;
+}

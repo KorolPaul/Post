@@ -1,0 +1,16 @@
+﻿@charset "utf-8";
+
+@import "const";
+@import "templates";
+@import "placeholders";
+
+/*Layout*/
+@import "layout/defaults";
+@import "layout/content";
+@import "layout/footer";
+@import "layout/headings";
+@import "layout/header";
+@import "layout/button";
+@import "layout/caption";
+@import "layout/social";
+@import "layout/layout";

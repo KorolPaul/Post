@@ -1,0 +1,17 @@
+﻿%heading1 {
+    font: bold #{$heading-1_font-size} $font-family;
+    
+}
+%heading2 {
+    font: bold #{$heading-2_font-size} $font-family;
+    color: $header_bg;
+}
+
+h1, 
+.heading-1 {
+    @extend %heading1;
+}
+h2,
+.heading-2 {
+    @extend %heading2;
+}

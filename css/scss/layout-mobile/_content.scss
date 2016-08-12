@@ -1,0 +1,18 @@
+﻿.content {
+    display: block !important;
+    td {
+        padding-left: $layout_indent__mobile !important;
+        padding-right: $layout_indent__mobile !important;
+    }
+    &_bordered-row {
+        display: block !important;
+
+        td {
+            display: block !important;
+            width: auto !important;
+        }
+        img {
+            width: 100% !important;
+        }
+    }
+}

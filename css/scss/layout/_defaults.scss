@@ -1,0 +1,26 @@
+﻿body {
+    background: $body_bg;
+    color: $text_color;
+    font: $font-size $font-family;
+    margin: 0;
+}
+a {
+    color: $link_color;
+}
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+td {
+    vertical-align: top;
+    padding: 0;
+}
+ul, 
+ol {
+    padding: 0 0 10px 15px;
+
+    li {
+        margin: 0 0 16px;
+    }
+}

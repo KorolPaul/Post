@@ -1,0 +1,30 @@
+﻿.content {
+    
+    
+    td {
+        background: $content_bg;
+        padding-left: $layout_indent;
+        padding-right: $layout_indent;
+        
+        @include mobile {
+            padding-left: $layout_indent__mobile;
+            padding-right: $layout_indent__mobile;
+        }
+        
+    }
+    &_bordered-row {
+        td {
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            width: 40%;
+        }
+        td + td {
+            padding: 0;
+            width: 60%;
+        }
+    }
+    &_section {
+        padding-bottom: $layout_indent;
+        text-align: center;
+    }
+}
