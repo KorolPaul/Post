@@ -15,4 +15,15 @@
             width: 100% !important;
         }
     }
+    &_title {
+        font-size: 16px;
+        margin: 0 0 5px;
+    }
+    &_left,
+    &_right {
+        padding-left: $layout_indent__mobile !important;
+        padding-right: $layout_indent__mobile !important;
+        padding-bottom: 20px !important;
+        display: block !important;
+    }
 }

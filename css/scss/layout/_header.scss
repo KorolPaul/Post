@@ -10,18 +10,29 @@
             border: none;
             padding: 25px 50px;
             vertical-align: middle;
+            width: 70%;
 
             & + td {
                 text-align: right;
+                width: 30%;
             }
         }
-        img {
+        img:first-child {
             vertical-align: -15px;
         }
     }
 
-
     &_link {
         color: $main_color;
+        font-size: 12px;
+    }
+    &_platform {
+        margin: 0 0 0 15px;
+        vertical-align: -7px;
+        
+        &__mobile {
+            max-height: 0;
+            width: 0;
+        }
     }
 }

@@ -131,7 +131,7 @@ gulp.task('email', function () {
         }
     }
 
-    return gulp.src(['templates/*.html'])
+    return gulp.src(['templates/wotb.html'])
         .pipe(emailBuilder(options).build())
         .pipe(gulp.dest('.'));
 });

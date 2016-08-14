@@ -3,9 +3,24 @@
         td {
             padding-left: $layout_indent__mobile !important;
             padding-right: $layout_indent__mobile !important;
+
+            & + td {
+                padding-left: 0 !important; 
+            }
         }
     }
     &_img {
         width:  100% !important;
+    }
+    &_platform {
+        margin: 0 0 0 5px !important;
+        max-height: 0 !important;
+        width: 0;
+        
+        &__mobile {
+            max-height: inherit !important;
+            vertical-align: -16px !important;
+            width: auto !important;
+        }
     }
 }

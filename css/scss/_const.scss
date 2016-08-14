@@ -9,10 +9,13 @@ $link_color: #e11931;
 $link-additional_color: #ffcc00;
 $widget_color: #323c46;
 
-$header_bg: #ff6600;
+//$header_bg: #ff6600;
+//$header_bg: #00b4b9;
+$header_bg: #b00201;
 $body_bg: #f2f2f2;
 $footer_bg: #d9d9d9;
 $content_bg: #fff;
+$border_color: #ccc;
 
 /*Typography*/
 $font-family: Arial, Helvetica, sans-serif;
@@ -25,7 +28,7 @@ $heading-1_font-size__mobile: 38px;
 $heading-2_font-size: 24px;
 
 /*Grid*/
-$layout_width: 660px;
+$layout_width: 680px;
 $layout_width__mobile: 292px;
 
 $layout_margin: 10px;
