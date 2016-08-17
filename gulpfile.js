@@ -131,8 +131,8 @@ gulp.task('email', function () {
         }
     }
 
-    return gulp.src(['templates/wotb.html'])
-        .pipe(emailBuilder(options).build())
+    return gulp.src(['templates/wot-na.html'])
+        .pipe(emailBuilder().build())
         .pipe(gulp.dest('.'));
 });
 

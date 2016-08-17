@@ -8,6 +8,16 @@
                 padding-left: 0 !important; 
             }
         }
+
+        &__big {
+            td {
+                padding-top: 35px !important;
+            }
+            img:first-child {
+                width: 165px !important;
+                margin-bottom: 10px !important;
+            }
+        }
     }
     &_img {
         width:  100% !important;

@@ -24,11 +24,17 @@ ul li, ol li { margin: 0 0 16px; }
 
 .content_bordered-row td { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding-bottom: 35px; width: 40%; }
 
+.content_bordered-row td:first-child { padding-left: 50px; padding-right: 50px; }
+
 .content_bordered-row td + td { padding: 0; width: 60%; }
 
 .content_section { padding-bottom: 50px; text-align: center; }
 
+.content_section__noindent { padding-bottom: 0; }
+
 .content_title { font-size: 18px; margin: 0 0 10px; }
+
+.content_image { margin: 15px 0 25px; }
 
 .footer { background: #d9d9d9; }
 
@@ -64,11 +70,13 @@ ul li, ol li { margin: 0 0 16px; }
 
 h1, .heading-1 { font: bold 48px Arial, Helvetica, sans-serif; }
 
-h2, .heading-2 { font: bold 24px Arial, Helvetica, sans-serif; color: #b00201; }
+h2, .heading-2 { font: bold 24px Arial, Helvetica, sans-serif; }
+
+.heading-2 { color: #ff6600; }
 
 .header td { padding: 0; }
 
-.header_top { background: #b00201; }
+.header_top { background: #ff6600; }
 
 .header_top td { border: none; padding: 25px 50px; vertical-align: middle; width: 70%; }
 
@@ -76,13 +84,19 @@ h2, .heading-2 { font: bold 24px Arial, Helvetica, sans-serif; color: #b00201; }
 
 .header_top img:first-child { vertical-align: -15px; }
 
-.header_link { color: #fff; font-size: 12px; }
+.header_top__big td { padding-top: 40px; padding-bottom: 35px; text-align: center; }
+
+.header_top__big img:first-child { vertical-align: middle; display: block; margin: 0 auto 13px; }
+
+.header_link { color: #fff; font-size: 12px; text-decoration: none; }
+
+.header_top__big .header_link { font-weight: bold; }
 
 .header_platform { margin: 0 0 0 15px; vertical-align: -7px; }
 
 .header_platform__mobile { max-height: 0; width: 0; }
 
-.button { background: #b00201; color: #fff; display: inline-block; font-size: 18px; font-weight: bold; text-decoration: none; text-transform: uppercase; padding: 10px 40px 11px; white-space: nowrap; text-align: center; }
+.button { background: #ff6600; color: #fff; display: inline-block; font-size: 18px; font-weight: bold; text-decoration: none; text-transform: uppercase; padding: 10px 40px 11px; white-space: nowrap; text-align: center; }
 
 .caption { color: #47474d; font-size: 12px; font-weight: 18px; text-align: center; }
 
@@ -114,4 +128,52 @@ h2, .heading-2 { font: bold 24px Arial, Helvetica, sans-serif; color: #b00201; }
 
 .layout_content { margin: auto; width: 680px; }
 
-.price { color: #b00201; font-size: 48px; line-height: 48px; font-weight: bold; padding: 25px 0; border-top: 1px solid #ccc; margin: 0; }
+.price { color: #ff6600; font-size: 48px; line-height: 48px; font-weight: bold; padding: 25px 0; border-top: 1px solid #ccc; margin: 0; }
+
+.product { width: 280px; }
+
+.product__small { width: 180px; }
+
+.product td { text-align: center; background: #f2f2f2; padding: 0; }
+
+.product tr:nth-child(1) td { background: #fff; border-top: 1px solid #ccc; padding: 50px 0 0; }
+
+.product tr:nth-child(2) td { font-size: 0; }
+
+.product tr:nth-child(3) td { border-left: 1px solid #ccc; border-right: 1px solid #ccc; }
+
+.product tr:nth-child(4) td { border-left: 1px solid #ff6600; border-right: 1px solid #ff6600; }
+
+.product_image { width: 100%; }
+
+.product_title { color: #4d4d4d; font-size: 24px; padding: 0 20px; text-transform: uppercase; }
+
+.product_text { padding: 0 20px; }
+
+.product .button { padding-left: 10px; padding-right: 10px; font-size: 18px; width: 260px; }
+
+.product .price { margin: 25px 20px 0; }
+
+.products-wrapper > td { padding: 0 10px 0 50px; }
+
+.products-wrapper > td + td { padding: 0 50px 0 10px; }
+
+.news { width: 280px; }
+
+.news td { padding: 0; }
+
+.news tr:nth-child(1) td { background: #fff; border-top: 1px solid #ccc; padding: 50px 0 0; }
+
+.news_image { margin: 0 0 22px; width: 100%; }
+
+.news_title { font-size: 24px; margin: 0 0 15px; }
+
+.news_date { font-size: 16px; font-weight: bold; margin: 0 0 20px; }
+
+.news_text { margin: 0 0 20px; }
+
+.news .button { padding-left: 10px; padding-right: 10px; font-size: 18px; width: 260px; }
+
+.news-wrapper > td { padding: 0 10px 0 50px; }
+
+.news-wrapper > td + td { padding: 0 50px 0 10px; }

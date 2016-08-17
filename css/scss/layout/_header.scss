@@ -20,11 +20,29 @@
         img:first-child {
             vertical-align: -15px;
         }
+
+        &__big {
+            td {
+                padding-top: 40px;
+                padding-bottom: 35px;
+                text-align: center;
+            }
+            img:first-child {
+                vertical-align: middle;
+                display: block;
+                margin: 0 auto 13px;
+            }
+        }
     }
 
     &_link {
         color: $main_color;
         font-size: 12px;
+        text-decoration: none;
+
+        .header_top__big  & {
+            font-weight: bold;
+        }
     }
     &_platform {
         margin: 0 0 0 15px;

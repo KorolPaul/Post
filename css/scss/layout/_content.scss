@@ -25,18 +25,30 @@
             border-bottom: 1px solid $border_color;
             padding-bottom: 35px;
             width: 40%;
-        }
-        td + td {
-            padding: 0;
-            width: 60%;
+
+            &:first-child {
+                padding-left: $layout_indent;
+                padding-right: $layout_indent;
+            }
+            & + td {
+                padding: 0;
+                width: 60%;
+            }
         }
     }
     &_section {
         padding-bottom: $layout_indent;
         text-align: center;
+
+        &__noindent {
+            padding-bottom: 0;
+        }
     }
     &_title {
         font-size: 18px;
         margin: 0 0 10px;
+    }
+    &_image {
+        margin: 15px 0 25px;
     }
 }

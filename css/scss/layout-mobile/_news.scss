@@ -1,0 +1,19 @@
+.news {
+    margin: auto !important;
+
+    td {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .button {
+        font-size: 16px !important;
+        padding-bottom: 9px !important;
+    }
+}
+
+.news-wrapper {
+    & > td {
+        display: block !important;
+        padding: 0 !important;
+    }
+}
