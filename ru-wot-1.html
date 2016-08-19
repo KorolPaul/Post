@@ -16,17 +16,41 @@
   .content_bordered-row { display: block !important; }
   .content_bordered-row td { display: block !important; width: auto !important; }
   .content_bordered-row img { width: 100% !important; }
+  .content_title { font-size: 16px; margin: 0 0 5px; }
+  .content_left, .content_right { padding-left: 15px !important; padding-right: 15px !important; padding-bottom: 20px !important; display: block !important; }
   .footer { min-width: 100%; }
   .footer_top td { display: table-row !important; }
-  .footer_bottom { padding: 0 !important; }
+  .footer_bottom { padding: 0 !important; text-align: center; }
   .footer_bottom tr { display: block !important; }
   .footer_bottom td { display: block !important; padding: 15px !important; width: auto !important; }
+  .footer_link { display: block !important; margin: 0 0 25px !important; }
+  .footer_menu td { padding: 0 20px !important; text-align: center !important; }
+  .footer_lang-wrapper { display: block !important; text-align: centerk !important; }
+  .footer_logo { margin: 0 0 35px !important; }
   .footer-menu { margin: 0 0 20px 20px; min-width: 250px; }
+  h3 { font-size: 16px; }
   .header_top td { padding-left: 15px !important; padding-right: 15px !important; }
+  .header_top td + td { padding-left: 0 !important; }
+  .header_top__big td { padding-top: 35px !important; }
+  .header_top__big img:first-child { width: 165px !important; margin-bottom: 10px !important; }
   .header_img { width: 100% !important; }
+  .header_platform { margin: 0 0 0 5px !important; max-height: 0 !important; width: 0; }
+  .header_platform__mobile { max-height: inherit !important; vertical-align: -16px !important; width: auto !important; }
   .button { font-size: 24px !important; display: block !important; max-width: 100%; padding-left: 10px !important; padding-right: 10px !important; }
   .caption td { padding: 10px 15px !important; }
-  .layout_content { width: 100% !important; } }
+  .layout_content { width: 100% !important; }
+  .price { margin: 0 25px !important; text-align: center !important; }
+  .product { margin: auto !important; }
+  .product td { padding-left: 0 !important; padding-right: 0 !important; }
+  .product .button { font-size: 16px !important; padding-bottom: 9px !important; }
+  .product .button__small { width: auto !important; }
+  .product__small { width: auto !important; margin: 0 15px 0 !important; }
+  .products-wrapper > td { display: block !important; padding: 0 !important; }
+  .products-wrapper__small > td { padding-bottom: 20px !important; }
+  .news { margin: auto !important; }
+  .news td { padding-left: 0 !important; padding-right: 0 !important; }
+  .news .button { font-size: 16px !important; padding-bottom: 9px !important; }
+  .news-wrapper > td { display: block !important; padding: 0 !important; } }
 
 </style>
     <title>Email</title>
@@ -35,16 +59,16 @@
     <table class="layout" style="border-collapse: collapse; table-layout: fixed; width: 100%; background: #f2f2f2; margin: 0;">
         <tr>
             <td style="vertical-align: top; padding: 0;">
-                <table class="layout_content" style="border-collapse: collapse; table-layout: fixed; width: 660px; margin: auto;">
+                <table class="layout_content" style="border-collapse: collapse; table-layout: fixed; width: 680px; margin: auto;">
                     <tr>
                         <td style="vertical-align: top; padding: 0;">
                             <table class="header" style="border-collapse: collapse; table-layout: fixed; width: 100%;">
                                 <tr class="header_top" style="background: #ff6600;">
-                                    <td style="vertical-align: middle; padding: 25px 50px; border: none;">
+                                    <td style="vertical-align: middle; padding: 25px 50px; border: none; width: 70%;">
                                         <img src="http://muscles.by/post/logo.png" alt="" style="vertical-align: -15px;">
                                     </td>
-                                    <td style="vertical-align: middle; padding: 25px 50px; border: none; text-align: right;">
-                                        <a class="header_link" href="#" style="color: #fff;">View in browser</a>
+                                    <td style="vertical-align: middle; padding: 25px 50px; border: none; width: 30%; text-align: right;">
+                                        <a class="header_link" href="#" style="color: #fff; font-size: 12px; text-decoration: none;">View in browser</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -56,7 +80,7 @@
                             <table class="content" style="border-collapse: collapse; table-layout: fixed; width: 100%;">
                                 <tr>
                                     <td colspan="2" style="vertical-align: top; padding: 0; background: #fff; padding-left: 50px; padding-right: 50px;">
-                                        <h2 style="font: bold 24px Arial, Helvetica, sans-serif; color: #ff6600;">World famous free-to-play hit rolled out to PlayStation 4 on January 19.&#160;</h2>
+                                        <h2 style="font: bold 24px Arial, Helvetica, sans-serif;">World famous free-to-play hit rolled out to PlayStation 4 on January 19. </h2>
                                         <p>A superb effort by Chicago-Baltimore production team was backed by Online Presence folks, as always. </p>
                                         <ul style="padding: 0 0 10px 15px;">
                                             <li style="margin: 0 0 16px;">A small bullet with short info; Another small bullet with some info</li>
@@ -71,12 +95,12 @@
                                     </td>
                                 </tr>
                                 <tr class="content_bordered-row">
-                                    <td style="vertical-align: top; padding: 0; background: #fff; padding-left: 50px; padding-right: 50px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; width: 40%;">
-                                        <h2 style="font: bold 24px Arial, Helvetica, sans-serif; color: #ff6600;">MT VI Skoda T-40 + Garage slot</h2>
+                                    <td style="vertical-align: top; padding: 0; background: #fff; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding-bottom: 35px; width: 40%; padding-left: 50px; padding-right: 50px;">
+                                        <h2 style="font: bold 24px Arial, Helvetica, sans-serif;">MT VI Skoda T-40 + Garage slot</h2>
                                         <p>A superb effort by Chicago-Baltimore production team was backed by Online Presence folks, as always. Breathing life into a game and providing it with vital components is never easy.Chicago DevOps coordinated </p>
                                         <a href="#" class="button" style="color: #fff; background: #ff6600; display: inline-block; font-size: 18px; font-weight: bold; text-decoration: none; text-transform: uppercase; padding: 10px 40px 11px; white-space: nowrap; text-align: center;">Unleash czech!</a>
                                     </td>
-                                    <td style="vertical-align: top; background: #fff; padding-left: 50px; padding-right: 50px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 0; width: 60%;">
+                                    <td style="vertical-align: top; background: #fff; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding-bottom: 35px; padding: 0; width: 60%;">
                                         <img width="100%" src="http://muscles.by/post/sms.jpg" alt="">
                                     </td>
                                 </tr>
@@ -118,22 +142,22 @@
                                     <td style="vertical-align: top; padding: 0; height: 27px; background: #d9d9d9;"></td>
                                 </tr>
                             </table>
-                            <table class="footer" style="border-collapse: collapse; table-layout: fixed; width: 100%; background: #d9d9d9; padding: 50px;">
+                            <table class="footer" style="border-collapse: collapse; table-layout: fixed; width: 100%; background: #d9d9d9;">
                                 <tr class="footer_top"> 
                                     <td style="vertical-align: top; padding: 0 0 0 50px; width: 20%;">
                                         <ul class="footer-menu" style="padding: 0; list-style: none;">
                                             <li class="footer-menu_title" style="color: #4d4d4d; font-size: 18px; font-weight: bold; text-transform: uppercase; white-space: nowrap; margin: 0;">
-                                                &#1048;&#1075;&#1088;&#1072;
+                                                Игра
                                                 <img class="footer-menu_icon" src="http://muscles.by/post/games.png" alt="" style="vertical-align: -2px; margin: 0 0 0 3px;">
                                             </li>
                                             <li style="margin: 0;">
-                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">&#1057;&#1082;&#1072;&#1095;&#1072;&#1090;&#1100; &#1080;&#1075;&#1088;&#1091;</a>
+                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">Скачать игру</a>
                                             </li>
                                             <li style="margin: 0;">
-                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">&#1055;&#1088;&#1072;&#1074;&#1080;&#1083;&#1072; &#1080;&#1075;&#1088;&#1099;</a>
+                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">Правила игры</a>
                                             </li>
                                             <li style="margin: 0;">
-                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">&#1060;&#1086;&#1088;&#1091;&#1084;</a>
+                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">Форум</a>
                                             </li>
                                         </ul>
                                     </td>
@@ -144,30 +168,30 @@
                                                 <img class="footer-menu_icon" src="http://muscles.by/post/account.png" alt="" style="vertical-align: -2px; margin: 0 0 0 3px;">
                                             </li>
                                             <li style="margin: 0;">
-                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">&#1051;&#1080;&#1095;&#1085;&#1099;&#1081; &#1082;&#1072;&#1073;&#1080;&#1085;&#1077;&#1090;</a>
+                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">Личный кабинет</a>
                                             </li>
                                             <li style="margin: 0;">
-                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">&#1041;&#1077;&#1079;&#1086;&#1087;&#1072;&#1089;&#1085;&#1086;&#1089;&#1090;&#1100;</a>
+                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">Безопасность</a>
                                             </li>
                                             <li style="margin: 0;">
-                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">&#1042;&#1086;&#1089;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1080;&#1090;&#1100; &#1087;&#1072;&#1088;&#1086;&#1083;</a>
+                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">Восстановить парол</a>
                                             </li>
                                         </ul>
                                     </td>
                                     <td style="vertical-align: top; padding: 0 0 0 50px; width: 25%;">
                                         <ul class="footer-menu" style="padding: 0; list-style: none;">
                                             <li class="footer-menu_title" style="color: #4d4d4d; font-size: 18px; font-weight: bold; text-transform: uppercase; white-space: nowrap; margin: 0;">
-                                                &#1055;&#1086;&#1076;&#1076;&#1077;&#1088;&#1078;&#1082;&#1072;
+                                                Поддержка
                                                 <img class="footer-menu_icon" src="http://muscles.by/post/support.png" alt="" style="vertical-align: -2px; margin: 0 0 0 3px;">
                                             </li>
                                             <li style="margin: 0;">
-                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">&#1062;&#1077;&#1085;&#1090;&#1088; &#1087;&#1086;&#1076;&#1076;&#1077;&#1088;&#1078;&#1082;&#1080;</a>
+                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">Центр поддержки</a>
                                             </li>
                                             <li style="margin: 0;">
-                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">&#1055;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1100;&#1089;&#1082;&#1086;&#1077; &#1089;&#1086;&#1075;&#1083;&#1072;&#1096;&#1077;&#1085;&#1080;&#1077;</a>
+                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">Пользовательское соглашение</a>
                                             </li>
                                             <li style="margin: 0;">
-                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">&#1055;&#1086;&#1083;&#1080;&#1090;&#1080;&#1082;&#1072; &#1082;&#1086;&#1085;&#1092;&#1080;&#1076;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1080;</a>
+                                                <a href="#" class="footer-menu_link" style="color: #666; font-size: 14px; line-height: 26px; text-decoration: none;">Политика конфиденциальности</a>
                                             </li>
                                         </ul>
                                     </td>
@@ -176,11 +200,11 @@
                                     <td colspan="3" style="vertical-align: top; padding: 0;">
                                         <table class="footer_bottom" style="border-collapse: collapse; table-layout: fixed; width: 100%; background: #d9d9d9;">
                                             <tr>
-                                                <td style="vertical-align: middle; padding: 30px 50px 40px; width: 50%;">
+                                                <td style="vertical-align: middle; padding: 50px 100px 0;">
                                                     <img src="http://muscles.by/post/wg.png" alt="">
                                                 </td>
-                                                <td style="vertical-align: middle; padding: 30px 50px 40px; width: 50%;">
-                                                    <p class="footer_copyright" style="font-size: 12px; line-height: 18px;">&#169; 2016 Wargaming Group Limited, 105, Agion Omologiton Avenue, Nicosia 1080, Cyprus</p>
+                                                <td style="vertical-align: middle; padding: 50px 100px 0;">
+                                                    <p class="footer_copyright" style="font-size: 12px; line-height: 18px;">© 2016 Wargaming Group Limited, 105, Agion Omologiton Avenue, Nicosia 1080, Cyprus</p>
                                                 </td>
                                             </tr>
                                         </table>
@@ -190,7 +214,7 @@
                             <table class="caption" style="border-collapse: collapse; table-layout: fixed; width: 100%; color: #47474d; font-size: 12px; font-weight: 18px; text-align: center;">
                                 <tr>
                                     <td style="vertical-align: top; padding: 10px 50px;">
-                                        <p>&#1042;&#1099; &#1087;&#1086;&#1083;&#1091;&#1095;&#1080;&#1083;&#1080; &#1101;&#1090;&#1086; &#1089;&#1086;&#1086;&#1073;&#1097;&#1077;&#1085;&#1080;&#1077; &#1087;&#1086;&#1089;&#1082;&#1086;&#1083;&#1100;&#1082;&#1091; &#1103;&#1074;&#1083;&#1103;&#1077;&#1090;&#1077;&#1089;&#1100; &#1079;&#1072;&#1088;&#1077;&#1075;&#1080;&#1089;&#1090;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1085;&#1099;&#1084; &#1087;&#1086;&#1083;&#1100;&#1079;&#1086;&#1074;&#1072;&#1090;&#1077;&#1083;&#1077;&#1084; wargaming.net &#1080; &#1089;&#1086;&#1075;&#1083;&#1072;&#1089;&#1080;&#1083;&#1080;&#1089;&#1100; &#1087;&#1086;&#1083;&#1091;&#1095;&#1072;&#1090;&#1100; &#1088;&#1072;&#1089;&#1089;&#1099;&#1083;&#1082;&#1091; &#1085;&#1072; &#1074;&#1072;&#1096; &#1072;&#1076;&#1088;&#1077;&#1089;. &#1045;&#1089;&#1083;&#1080; &#1074;&#1099; &#1073;&#1086;&#1083;&#1100;&#1096;&#1077; &#1085;&#1077; &#1093;&#1086;&#1090;&#1080;&#1090;&#1077; &#1087;&#1086;&#1083;&#1091;&#1095;&#1072;&#1090;&#1100; &#1085;&#1086;&#1074;&#1086;&#1089;&#1090;&#1085;&#1091;&#1102; &#1088;&#1072;&#1089;&#1089;&#1099;&#1083;&#1082;&#1091;, &#1074;&#1099; &#1084;&#1086;&#1078;&#1077;&#1090;&#1077; &#1086;&#1090;&#1087;&#1080;&#1089;&#1072;&#1090;&#1100;&#1089;&#1103;.</p>
+                                        <p>Вы получили это сообщение поскольку являетесь зарегистрированным пользователем wargaming.net и согласились получать рассылку на ваш адрес. Если вы больше не хотите получать новостную рассылку, вы можете отписаться.</p>
                                     </td>
                                 </tr>
                             </table>

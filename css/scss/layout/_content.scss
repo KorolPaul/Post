@@ -49,6 +49,15 @@
         margin: 0 0 10px;
     }
     &_image {
-        margin: 15px 0 25px;
+        margin: 15px 0 20px;
+    }
+    &_border-top td {
+        background: $content_bg;
+        border-top: 1px solid $border_color;
+        padding-top: 50px;
+
+        h3 {
+            margin: 0 0 30px;
+        }
     }
 }

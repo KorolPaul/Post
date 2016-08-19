@@ -1,21 +1,12 @@
 .product {
     width: 280px;
 
-    &__small {
-        width: 180px;
-    }
-
     td {
         text-align: center;
         background: $body_bg;
         padding: 0;
     }
     tr:nth-child(1) td {
-        background: $content_bg;
-        border-top: 1px solid $border_color;
-        padding: 50px 0 0;
-    }
-    tr:nth-child(2) td {
         font-size: 0;
     }
     tr:nth-child(3) td {
@@ -27,6 +18,19 @@
         border-right: 1px solid $header_bg;
     }
 
+    &__small {
+        margin: auto;
+        width: 180px;
+        
+        tr:nth-child(1) td {
+            border-top: none;
+            padding: 0;
+        }
+        tr:nth-child(2) td {
+            font-size: inherit;
+        }
+    }
+
     &_image {
         width: 100%;
     }
@@ -35,6 +39,10 @@
         font-size: $heading-2_font-size;
         padding: 0 20px;
         text-transform: uppercase;
+
+        .product__small  & {
+            font-size: 18px;
+        }
     }
     &_text {
         padding: 0 20px;
@@ -44,6 +52,10 @@
         padding-right: 10px;
         font-size: 18px;
         width: 260px;
+
+        &__small {
+            width: 160px;
+        }
     }
     .price {
         margin: 25px 20px 0;
@@ -56,6 +68,19 @@
 
         & + td {
             padding: 0 $layout_indent 0 10px; 
+        }
+    }
+
+    &__small {
+        & > td {
+            padding: 0 0 0 $layout_indent;
+
+            & + td {
+                padding: 0; 
+            }
+            &:last-child {
+                padding: 0 $layout_indent 0 0;
+            }
         }
     }
 }

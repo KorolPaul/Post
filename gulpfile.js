@@ -130,8 +130,26 @@ gulp.task('email', function () {
             }
         }
     }
+    var options_outlook = {
+        encodeSpecialChars: true,
+        emailTest : {
+            to : 'p_korol@wargaming.net',
+            from: 'p_korol@wargaming.net',
+            subject : 'WG Emails test',
+            nodemailer: {
+                transporter: {
+                    service: 'outlook',
+                    auth: {
+                        user: 'p_korol@wargaming.net',
+                        pass: 'Stark_66'
+                    }
+                    }, 
+                    defaults: {} 
+            }
+        }
+    }
 
-    return gulp.src(['templates/wot-na.html'])
+    return gulp.src(['templates/ru-wot-*.html'])
         .pipe(emailBuilder().build())
         .pipe(gulp.dest('.'));
 });

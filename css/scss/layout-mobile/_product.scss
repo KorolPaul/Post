@@ -8,6 +8,15 @@
     .button {
         font-size: 16px !important;
         padding-bottom: 9px !important;
+
+        &__small {
+            width: auto !important;
+        }
+    }
+    &__small {
+        width: auto !important;
+        margin: 0 $layout_indent__mobile 0 !important;
+
     }
 }
 
@@ -15,5 +24,8 @@
     & > td {
         display: block !important;
         padding: 0 !important;
+    }
+    &__small > td {
+        padding-bottom: 20px !important;
     }
 }
