@@ -4,6 +4,7 @@
 
     &_content {
         margin: auto;
+        max-width: $layout_width;
         width: $layout_width;
     }
 }

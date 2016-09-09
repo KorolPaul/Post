@@ -149,7 +149,7 @@ gulp.task('email', function () {
         }
     }
 
-    return gulp.src(['templates/ru-wot-*.html'])
+    return gulp.src(['templates/eu-wot.html'])
         .pipe(emailBuilder().build())
         .pipe(gulp.dest('.'));
 });

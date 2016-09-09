@@ -1,17 +1,25 @@
+.button-wrapper {
+    margin: auto;
+    width: auto;
+
+    td {
+        background: $header_bg;
+        padding: 10px 40px 11px 40px;;
+        white-space: nowrap;
+        text-align: center;
+    }
+    &__big td {
+        padding: 15px 60px 16px;
+    }
+}
 .button {
-    background: $header_bg;
     color: $main_color;
-    display: inline-block;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 10px 40px 11px;
-    white-space: nowrap;
-    text-align: center;
 
-    &__big {
+    .button-wrapper__big & {
         font-size: 24px;
-        padding: 15px 60px 16px;
     }
 }

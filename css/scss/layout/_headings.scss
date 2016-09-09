@@ -12,6 +12,7 @@ h1,
 }
 h2 {
     @extend %heading2;
+    margin: 19px 0;
 }
 .heading-2 {
     @extend %heading2;
