@@ -26,4 +26,11 @@
         padding-bottom: 20px !important;
         display: block !important;
     }
+    &_columns {
+
+        td {
+            display: block !important;
+            padding: 0 !important;
+        }
+    }
 }

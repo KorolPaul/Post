@@ -23,7 +23,7 @@
         }
         td {
             vertical-align: middle;;
-            padding: 50px 100px 50px 50px;
+            padding: 50px 100px 50px;
 
             p {
                 margin-bottom: 0;
@@ -36,6 +36,10 @@
             td {
                 padding-bottom: 0;
             }
+        }
+        & > tbody > tr > td {
+            padding-left: 100px;
+            padding-right: 100px;
         }
     }
     &_bottom-wrapper {

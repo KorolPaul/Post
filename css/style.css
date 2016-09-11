@@ -10,9 +10,9 @@ table { border-collapse: collapse; table-layout: fixed; width: 100%; }
 
 td { vertical-align: top; padding: 0; }
 
-ul, ol { padding: 10px 0 10px 15px; }
+ul, ol { padding: 2px 0 18px 15px; }
 
-ul li, ol li { margin: 0 0 16px; }
+ul li, ol li { margin: 8px 0; }
 
 p { margin: 16px 0; }
 
@@ -22,7 +22,11 @@ p { margin: 16px 0; }
 
 .content_left { padding-left: 50px; padding-right: 5px; padding-bottom: 30px; }
 
+.content_left__noindent { padding-bottom: 0; }
+
 .content_right { padding-left: 5px; padding-right: 50px; padding-bottom: 30px; }
+
+.content_right__noindent { padding-bottom: 0; }
 
 .content_bordered-row > td { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding-bottom: 35px; width: 40%; }
 
@@ -30,17 +34,27 @@ p { margin: 16px 0; }
 
 .content_bordered-row > td + td { padding: 0; width: 60%; }
 
-.content_section { padding-bottom: 50px; text-align: center; }
+.content_bordered-cell { border-top: 1px solid #ccc; }
+
+.content_bordered-cell__indent { padding-top: 20px; padding-bottom: 10px; }
+
+.content_section { padding-top: 30px; padding-bottom: 50px; text-align: center; }
 
 .content_section__noindent { padding-bottom: 0; }
 
 .content_title { font-size: 18px; margin: 0 0 10px; }
 
-.content_image { margin: 15px 0 10px; }
+.content_subtitle { font-size: 12px; font-weight: bold; text-transform: uppercase; }
+
+.content_image { margin: 15px 0 0px; }
 
 .content_border-top td { background: #fff; border-top: 1px solid #ccc; padding-top: 50px; }
 
 .content_border-top td h3 { margin: 0 0 30px; }
+
+.content_columns { padding: 15px 0 30px; }
+
+.content_columns td { padding-right: 15px; }
 
 .footer { background: #d9d9d9; }
 
@@ -54,13 +68,15 @@ p { margin: 16px 0; }
 
 .footer_bottom img { margin: -15px 0 0; }
 
-.footer_bottom td { vertical-align: middle; padding: 50px 100px 50px 50px; }
+.footer_bottom td { vertical-align: middle; padding: 50px 100px 50px; }
 
 .footer_bottom td p { margin-bottom: 0; }
 
 .footer_bottom td + td { padding-left: 0; }
 
 .footer_bottom tr:first-child td { padding-bottom: 0; }
+
+.footer_bottom > tbody > tr > td { padding-left: 100px; padding-right: 100px; }
 
 .footer_bottom-wrapper td { padding: 0; }
 
@@ -122,15 +138,17 @@ h3 { font-size: 18px; }
 
 .header_top__big .header_link { font-weight: bold; }
 
-.header_platform { margin: 0 0 0 15px; vertical-align: -7px; }
+.header_platform { margin: 0 0 0 10px; vertical-align: -7px; }
 
 .header_platform__mobile { max-height: 0; width: 0; }
 
-.button-wrapper { margin: auto; width: auto; }
+.button-wrapper { margin: auto; width: 100%; }
 
-.button-wrapper td { background: #ff6600; padding: 10px 40px 11px 40px; white-space: nowrap; text-align: center; }
+.button-wrapper tr td { background: #ff6600; padding: 10px 10px 10px 10px; white-space: nowrap; text-align: center; }
 
-.button-wrapper__big td { padding: 15px 60px 16px; }
+.button-wrapper__big { width: auto; }
+
+.button-wrapper__big tr td { padding: 15px 60px 16px; }
 
 .button { color: #fff; font-size: 18px; font-weight: bold; text-decoration: none; text-transform: uppercase; }
 
@@ -174,7 +192,7 @@ h3 { font-size: 18px; }
 
 .product td { text-align: center; background: #f2f2f2; padding: 0; }
 
-.product tr:nth-child(1) td { font-size: 0; }
+.product tr:nth-child(2) td { font-size: 0; }
 
 .product tr:nth-child(3) td { border-left: 1px solid #ccc; border-right: 1px solid #ccc; }
 
@@ -182,7 +200,7 @@ h3 { font-size: 18px; }
 
 .product__small { margin: auto; width: 180px; }
 
-.product__small tr:nth-child(1) td { border-top: none; padding: 0; }
+.product__small tr:nth-child(1) td { border-top: none; }
 
 .product__small tr:nth-child(2) td { font-size: inherit; }
 
@@ -198,7 +216,7 @@ h3 { font-size: 18px; }
 
 .product .button__small { width: 160px; }
 
-.product .price { margin: 25px 20px 0; }
+.product .price { margin: 25px 20px 20px; }
 
 .products-wrapper > td { padding: 0 10px 0 50px; }
 
@@ -212,11 +230,11 @@ h3 { font-size: 18px; }
 
 .news { width: 280px; }
 
-.news td { padding: 0; }
+.news td { padding: 0; text-align: left; }
 
 .news_image { width: 100%; }
 
-.news_title { font-size: 24px; margin: 0 0 15px; }
+.news_title { font-size: 24px; margin: 20px 0 15px; }
 
 .news_date { font-size: 16px; font-weight: bold; margin: 0 0 20px; }
 
@@ -224,6 +242,6 @@ h3 { font-size: 18px; }
 
 .news .button { padding-left: 10px; padding-right: 10px; font-size: 18px; width: 260px; }
 
-.news-wrapper > td { padding: 0 10px 0 50px; }
+.news-wrapper > td { padding-right: 10px; padding-left: 50px; }
 
-.news-wrapper > td + td { padding: 0 50px 0 10px; }
+.news-wrapper > td + td { padding-left: 10px; padding-right: 50px; }

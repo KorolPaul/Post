@@ -1,5 +1,6 @@
 ﻿.footer {
     min-width: 100%;
+
     &_top {
         td {
             display: table-row !important;
@@ -12,28 +13,35 @@
         tr {
             display: block !important;
         }
-        td {
-            display: block !important;
+        & > tbody > tr > td {
             padding: $layout_indent__mobile !important;
+        }
+    }
+    &_bottom-wrapper {
+        & > tbody > tr > td {
+            display: block !important;
             width: auto !important;
         }
     }
     &_link {
         display: block !important;
-        margin: 0 0 25px !important;
     }
     &_menu {
-        td {
+        & > td {
             padding: 0 20px !important;
             text-align: center !important;
         }
     }
     &_lang-wrapper {
-        display: block !important;
-        text-align: centerk !important;
+        text-align: center !important;
+        margin: 20px auto 0 !important;
+
+        td {
+            padding: 0 3px !important;
+        }
     }
     &_logo {
-        margin: 0 0 35px !important;
+        margin: 10px 0 0 !important;
     }
 }
 

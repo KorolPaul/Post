@@ -6,7 +6,7 @@
         background: $body_bg;
         padding: 0;
     }
-    tr:nth-child(1) td {
+    tr:nth-child(2) td {
         font-size: 0;
     }
     tr:nth-child(3) td {
@@ -24,7 +24,6 @@
         
         tr:nth-child(1) td {
             border-top: none;
-            padding: 0;
         }
         tr:nth-child(2) td {
             font-size: inherit;
@@ -58,7 +57,7 @@
         }
     }
     .price {
-        margin: 25px 20px 0;
+        margin: 25px 20px 20px;
     }
 }
 

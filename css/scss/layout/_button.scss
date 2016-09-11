@@ -1,15 +1,19 @@
 .button-wrapper {
     margin: auto;
-    width: auto;
+    width: 100%;
 
-    td {
+    tr td {
         background: $header_bg;
-        padding: 10px 40px 11px 40px;;
+        padding: 10px 10px 10px 10px;;
         white-space: nowrap;
         text-align: center;
     }
-    &__big td {
-        padding: 15px 60px 16px;
+    &__big {
+        width: auto;
+
+        tr td {
+            padding: 15px 60px 16px;
+        }
     }
 }
 .button {

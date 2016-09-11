@@ -18,6 +18,7 @@
   .content_bordered-row img { width: 100% !important; }
   .content_title { font-size: 16px; margin: 0 0 5px; }
   .content_left, .content_right { padding-left: 15px !important; padding-right: 15px !important; padding-bottom: 20px !important; display: block !important; }
+  .content_columns td { display: block !important; padding: 0 !important; }
   .footer { min-width: 100%; }
   .footer_top td { display: table-row !important; }
   .footer_bottom { padding: 0 !important; text-align: center; }
@@ -56,7 +57,7 @@
   .news { margin: auto !important; }
   .news td { padding-left: 0 !important; padding-right: 0 !important; }
   .news .button { font-size: 16px !important; padding-bottom: 9px !important; }
-  .news-wrapper > td { display: block !important; padding: 0 !important; } }
+  .news-wrapper > td { display: block !important; padding: 0 0 30px !important; } }
 
 </style>
     <title>Email</title>
@@ -69,12 +70,12 @@
                     <tr>
                         <td style="vertical-align: top; padding: 0;">
                             <table class="header" style="border-collapse: collapse; table-layout: fixed; width: 100%;">
-                                <tr class="header_top header_top__big" style="background: #e11931;">
-                                    <td colspan="2" style="vertical-align: middle; padding: 25px 50px; border: none; width: 70%; padding-top: 40px; padding-bottom: 35px; text-align: center;">
-                                        <img src="http://muscles.by/post/logo-wg-big.png" alt="" style="vertical-align: middle; display: block; margin: 0 auto 13px;">
-                                        <div>
-                                            <a class="header_link" href="#" style="color: #fff; font-size: 12px; text-decoration: none; font-weight: bold;">View in browser</a>
-                                        </div>
+                                <tr class="header_top" style="background: #b00201;">
+                                    <td style="vertical-align: middle; padding: 25px 50px; border: none; width: 70%;">
+                                        <img src="http://muscles.by/post/logo-wotb.png" alt="" style="vertical-align: -15px;">
+                                    </td>
+                                    <td style="vertical-align: middle; padding: 25px 50px; border: none; width: 30%; text-align: right;">
+                                        <a class="header_link" href="#" style="color: #fff; font-size: 12px; text-decoration: none;">View in browser</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -88,20 +89,72 @@
                                     <td colspan="2" style="vertical-align: top; padding: 0; background: #fff; padding-left: 50px; padding-right: 50px;">
                                         <h2 style="font: bold 24px Arial, Helvetica, sans-serif; margin: 19px 0;">World famous free-to-play hit rolled out to PlayStation 4 on January 19.&#160;</h2>
                                         <p style="margin: 16px 0;">A superb effort by Chicago-Baltimore production team was backed by Online Presence folks, as always. </p>
-                                        <p style="margin: 16px 0;">A superb effort by Chicago-Baltimore production team was backed by Online Presence folks, as always. A superb effort by Chicago-Baltimore production team was backed by Online Presence folks, as always. </p>
-                                        <img class="content_image" width="100%" src="http://muscles.by/post/tanks.jpg" alt="" style="margin: 15px 0 10px;">
+                                        <img class="content_image" width="100%" src="http://muscles.by/post/tanks.jpg" alt="" style="margin: 15px 0 0px;">
+                                        <ul style="padding: 2px 0 18px 15px;">
+                                            <li style="margin: 8px 0;">A small bullet with short info; Another small bullet with some info</li>
+                                            <li style="margin: 8px 0;">Another small bullet with some info; Another small bullet with some info</li>
+                                            <li style="margin: 8px 0;">Use it to make the text interesting. Another small bullet with some info</li>
+                                        </ul>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="content_section content_section__noindent" colspan="2" style="vertical-align: top; padding: 0; padding-bottom: 0; text-align: center; background: #fff; padding-left: 50px; padding-right: 50px;">
-                                        <table class="button-wrapper" style="border-collapse: collapse; table-layout: fixed; width: 100%; margin: auto;">
+                                    <td colspan="2" class="content_bordered-cell" style="vertical-align: top; padding: 0; border-top: 1px solid #ccc; background: #fff; padding-left: 50px; padding-right: 50px;">
+                                        <h3 style="font-size: 18px;">World famous free-to-play hit rolled out to PlayStation 4 on January 19. </h3>
+                                        <img class="content_image" width="100%" src="http://muscles.by/post/video.jpg" alt="" style="margin: 15px 0 0px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="content_section" colspan="2" style="vertical-align: top; padding: 0; padding-top: 30px; padding-bottom: 50px; text-align: center; background: #fff; padding-left: 50px; padding-right: 50px;">
+                                        <table class="button-wrapper button-wrapper__big" style="border-collapse: collapse; table-layout: fixed; width: auto; margin: auto;">
                                             <tbody>
                                                 <tr>
-                                                    <td style="vertical-align: top; padding: 10px 10px 11px 10px; background: #e11931; white-space: nowrap; text-align: center;">
-                                                        <a class="button" href="#" style="color: #fff; font-size: 18px; font-weight: bold; text-decoration: none; text-transform: uppercase;">learn more</a>
+                                                    <td style="vertical-align: top; padding: 15px 60px 16px; background: #b00201; white-space: nowrap; text-align: center;">
+                                                        <a class="button" href="#" style="color: #fff; font-weight: bold; text-decoration: none; text-transform: uppercase; font-size: 24px;">learn more</a>
                                                     </td>
                                                 </tr>
                                             </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="news-wrapper">
+                                    <td align="right" class="content_section content_section__noindent content_bordered-cell" style="vertical-align: top; padding: 0; border-top: 1px solid #ccc; padding-top: 30px; padding-bottom: 0; text-align: center; background: #fff; padding-right: 10px; padding-left: 50px;">
+                                        <table class="news" style="border-collapse: collapse; table-layout: fixed; width: 280px;">
+                                            <tr>
+                                                <td style="vertical-align: top; padding: 0; background: #fff; text-align: left;">
+                                                    <img class="news_image" width="100%" src="http://muscles.by/post/news-1.jpg" alt="" style="width: 100%;">
+                                                    <h3 class="news_title content_title__big" style="font-size: 24px; margin: 20px 0 15px;">Red Team</h3>
+                                                    <p class="news_text" style="margin: 22px 0 20px;">A superb effort by Chicago-Baltimore production team was backed by Online Presence folks, as always. Breathing life into a game and providing it with vital components is never easy.</p>
+                                                    <table class="button-wrapper" style="border-collapse: collapse; table-layout: fixed; width: 100%; margin: auto;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="vertical-align: top; padding: 10px 20px 10px 20px; background: #b00201; white-space: nowrap; text-align: center;">
+                                                                    <a class="button" href="#" style="color: #fff; font-weight: bold; text-decoration: none; text-transform: uppercase; font-size: 18px; padding-left: 10px; padding-right: 10px; width: 260px;">play for Red team</a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="content_section content_section__noindent content_bordered-cell" style="vertical-align: top; padding: 0; border-top: 1px solid #ccc; padding-top: 30px; padding-bottom: 0; text-align: center; background: #fff; padding-right: 50px; padding-left: 10px;">
+                                        <table class="news" style="border-collapse: collapse; table-layout: fixed; width: 280px;">
+                                            <tr>
+                                                <td style="vertical-align: top; padding: 0; background: #fff; text-align: left;">
+                                                    <img class="news_image" width="100%" src="http://muscles.by/post/news-2.jpg" alt="" style="width: 100%;">
+                                                    <h3 class="news_title content_title__big" style="font-size: 24px; margin: 20px 0 15px;">Blue Team</h3>
+                                                    <p class="news_text" style="margin: 22px 0 20px;">A superb effort by Chicago-Baltimore production team was backed by Online Presence folks, as always. Breathing life into a game and providing it with vital components is never easy.</p>
+                                                    <table class="button-wrapper" style="border-collapse: collapse; table-layout: fixed; width: 100%; margin: auto;">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="vertical-align: top; padding: 10px 20px 10px 20px; background: #b00201; white-space: nowrap; text-align: center;">
+                                                                    <a class="button" href="#" style="color: #fff; font-weight: bold; text-decoration: none; text-transform: uppercase; font-size: 18px; padding-left: 10px; padding-right: 10px; width: 260px;">play for Red team</a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
                                         </table>
                                     </td>
                                 </tr>
@@ -197,37 +250,37 @@
                                                                     <tr>
                                                                         <td style="vertical-align: middle; padding: 0 5px 0 0; padding-bottom: 0;">
                                                                             <a href="#" class="footer_lang" style="color: #e11931; text-decoration: none;">
-                                                                                <img class="footer_link-icon" src="http://muscles.by/post/lang/en.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
+                                                                                <img class="footer_link-icon" width="28" src="http://muscles.by/post/lang/en.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
                                                                             </a>
                                                                         </td>
                                                                         <td style="vertical-align: middle; padding: 0 5px 0 0; padding-left: 0; padding-bottom: 0;">
                                                                             <a href="#" class="footer_lang" style="color: #e11931; text-decoration: none;">
-                                                                                <img class="footer_link-icon" src="http://muscles.by/post/lang/de.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
+                                                                                <img class="footer_link-icon" width="28" src="http://muscles.by/post/lang/de.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
                                                                             </a>
                                                                         </td>
                                                                         <td style="vertical-align: middle; padding: 0 5px 0 0; padding-left: 0; padding-bottom: 0;">
                                                                             <a href="#" class="footer_lang" style="color: #e11931; text-decoration: none;">
-                                                                                <img class="footer_link-icon" src="http://muscles.by/post/lang/fr.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
+                                                                                <img class="footer_link-icon" width="28" src="http://muscles.by/post/lang/fr.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
                                                                             </a>
                                                                         </td>
                                                                         <td style="vertical-align: middle; padding: 0 5px 0 0; padding-left: 0; padding-bottom: 0;">
                                                                             <a href="#" class="footer_lang" style="color: #e11931; text-decoration: none;">
-                                                                                <img class="footer_link-icon" src="http://muscles.by/post/lang/cs.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
+                                                                                <img class="footer_link-icon" width="28" src="http://muscles.by/post/lang/cs.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
                                                                             </a>
                                                                         </td>
                                                                         <td style="vertical-align: middle; padding: 0 5px 0 0; padding-left: 0; padding-bottom: 0;">
                                                                             <a href="#" class="footer_lang" style="color: #e11931; text-decoration: none;">
-                                                                                <img class="footer_link-icon" src="http://muscles.by/post/lang/sp.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
+                                                                                <img class="footer_link-icon" width="28" src="http://muscles.by/post/lang/sp.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
                                                                             </a>
                                                                         </td>
                                                                         <td style="vertical-align: middle; padding: 0 5px 0 0; padding-left: 0; padding-bottom: 0;">
                                                                             <a href="#" class="footer_lang" style="color: #e11931; text-decoration: none;">
-                                                                                <img class="footer_link-icon" src="http://muscles.by/post/lang/tr.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
+                                                                                <img class="footer_link-icon" width="28" src="http://muscles.by/post/lang/tr.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
                                                                             </a>
                                                                         </td>
                                                                         <td style="vertical-align: middle; padding: 0 5px 0 0; padding-left: 0; padding-bottom: 0;">
                                                                             <a href="#" class="footer_lang" style="color: #e11931; text-decoration: none;">
-                                                                                <img class="footer_link-icon" src="http://muscles.by/post/lang/pl.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
+                                                                                <img class="footer_link-icon" width="28" src="http://muscles.by/post/lang/pl.jpg" alt="" style="vertical-align: -3px; margin: -15px 0 0;">
                                                                             </a>
                                                                         </td>
                                                                     </tr>

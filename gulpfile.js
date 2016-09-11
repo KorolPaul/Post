@@ -149,8 +149,8 @@ gulp.task('email', function () {
         }
     }
 
-    return gulp.src(['templates/eu-wot.html'])
-        .pipe(emailBuilder().build())
+    return gulp.src(['templates/eu-wot-2.html'])
+        .pipe(emailBuilder(options).build())
         .pipe(gulp.dest('.'));
 });
 
