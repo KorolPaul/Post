@@ -1,10 +1,10 @@
 .button-wrapper {
     margin: auto;
-    width: 100%;
+    width: auto;
 
     tr td {
         background: $header_bg;
-        padding: 10px 10px 10px 10px;;
+        padding: 10px 40px 10px 40px;;
         white-space: nowrap;
         text-align: center;
     }
@@ -13,6 +13,13 @@
 
         tr td {
             padding: 15px 60px 16px;
+        }
+    }
+    .product & {
+        width: 100%;
+
+        tr td {
+            padding: 10px;            
         }
     }
 }

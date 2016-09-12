@@ -18,15 +18,18 @@
   .content_bordered-row img { width: 100% !important; }
   .content_title { font-size: 16px; margin: 0 0 5px; }
   .content_left, .content_right { padding-left: 15px !important; padding-right: 15px !important; padding-bottom: 20px !important; display: block !important; }
+  .content_columns td { display: block !important; padding: 0 !important; }
   .footer { min-width: 100%; }
   .footer_top td { display: table-row !important; }
   .footer_bottom { padding: 0 !important; text-align: center; }
   .footer_bottom tr { display: block !important; }
-  .footer_bottom td { display: block !important; padding: 15px !important; width: auto !important; }
-  .footer_link { display: block !important; margin: 0 0 25px !important; }
-  .footer_menu td { padding: 0 20px !important; text-align: center !important; }
-  .footer_lang-wrapper { display: block !important; text-align: centerk !important; }
-  .footer_logo { margin: 0 0 35px !important; }
+  .footer_bottom > tbody > tr > td { padding: 15px !important; }
+  .footer_bottom-wrapper > tbody > tr > td { display: block !important; width: auto !important; }
+  .footer_link { display: block !important; }
+  .footer_menu > td { padding: 0 20px !important; text-align: center !important; }
+  .footer_lang-wrapper { text-align: center !important; margin: 20px auto 0 !important; }
+  .footer_lang-wrapper td { padding: 0 3px !important; }
+  .footer_logo { margin: 10px 0 0 !important; }
   .footer-menu { margin: 0 0 20px 20px; min-width: 250px; }
   h3 { font-size: 16px; }
   .header_top td { padding-left: 15px !important; padding-right: 15px !important; }
@@ -36,21 +39,25 @@
   .header_img { width: 100% !important; }
   .header_platform { margin: 0 0 0 5px !important; max-height: 0 !important; width: 0; }
   .header_platform__mobile { max-height: inherit !important; vertical-align: -16px !important; width: auto !important; }
-  .button { font-size: 24px !important; display: block !important; max-width: 100%; padding-left: 10px !important; padding-right: 10px !important; }
+  .button-wrapper td { display: block !important; max-width: 100%; padding-left: 10px !important; padding-right: 10px !important; }
+  .button { font-size: 24px !important; }
   .caption td { padding: 10px 15px !important; }
+  .social td { width: auto !important; }
+  .social td:nth-child(2) { width: 280px !important; }
+  .social tr:nth-child(3) td { width: auto !important; }
   .layout_content { width: 100% !important; }
-  .price { margin: 0 25px !important; text-align: center !important; }
+  .price { margin: 25px 0 !important; text-align: center !important; }
   .product { margin: auto !important; }
   .product td { padding-left: 0 !important; padding-right: 0 !important; }
   .product .button { font-size: 16px !important; padding-bottom: 9px !important; }
   .product .button__small { width: auto !important; }
   .product__small { width: auto !important; margin: 0 15px 0 !important; }
-  .products-wrapper > td { display: block !important; padding: 0 !important; }
+  .products-wrapper > td { display: block !important; padding: 0 0 30px !important; }
   .products-wrapper__small > td { padding-bottom: 20px !important; }
   .news { margin: auto !important; }
   .news td { padding-left: 0 !important; padding-right: 0 !important; }
   .news .button { font-size: 16px !important; padding-bottom: 9px !important; }
-  .news-wrapper > td { display: block !important; padding: 0 !important; } }
+  .news-wrapper > td { display: block !important; padding: 0 0 30px !important; } }
 
 </style>
     <title>Email</title>
@@ -85,7 +92,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="content_section content_section__noindent" colspan="2" style="vertical-align: top; padding: 0; padding-bottom: 0; text-align: center; background: #fff; padding-left: 50px; padding-right: 50px;">
+                                    <td class="content_section content_section__noindent" colspan="2" style="vertical-align: top; padding: 0; padding-top: 30px; padding-bottom: 0; text-align: center; background: #fff; padding-left: 50px; padding-right: 50px;">
                                         <table class="button-wrapper button-wrapper__big" style="border-collapse: collapse; table-layout: fixed; width: auto; margin: auto;">
                                             <tbody>
                                                 <tr>
@@ -197,10 +204,10 @@
                                     <td colspan="3" style="vertical-align: top; padding: 0;">
                                         <table class="footer_bottom" style="border-collapse: collapse; table-layout: fixed; width: 100%; background: #d9d9d9;">
                                             <tr>
-                                                <td style="vertical-align: middle; padding: 50px 100px 50px 50px;">
+                                                <td style="vertical-align: middle; padding: 50px 100px 50px; padding-bottom: 0;">
                                                     <img src="http://muscles.by/post/wg.png" alt="" style="margin: -15px 0 0;">
                                                 </td>
-                                                <td style="vertical-align: middle; padding: 50px 100px 50px 50px; padding-left: 0;">
+                                                <td style="vertical-align: middle; padding: 50px 100px 50px; padding-left: 0; padding-bottom: 0;">
                                                     <p class="footer_copyright" style="margin: 0; font-size: 12px; line-height: 18px; margin-bottom: 0;">© 2016 Wargaming Group Limited, 105, Agion Omologiton Avenue, Nicosia 1080, Cyprus</p>
                                                 </td>
                                             </tr>

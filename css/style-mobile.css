@@ -35,7 +35,7 @@
   .button { font-size: 24px !important; }
   .caption td { padding: 10px 15px !important; }
   .social td { width: auto !important; }
-  .social td:nth-child(2) { width: 168px !important; }
+  .social td:nth-child(2) { width: 280px !important; }
   .social tr:nth-child(3) td { width: auto !important; }
   .layout_content { width: 100% !important; }
   .price { margin: 25px 0 !important; text-align: center !important; }
