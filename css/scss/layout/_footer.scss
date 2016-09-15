@@ -24,6 +24,8 @@
         td {
             vertical-align: middle;;
             padding: 50px 100px 50px;
+            //padding: 50px 50px 50px;
+            //width: 50%;
 
             p {
                 margin-bottom: 0;
@@ -35,6 +37,7 @@
         tr:first-child {
             td {
                 padding-bottom: 0;
+                //padding-bottom: 75px;
             }
         }
         & > tbody > tr > td {

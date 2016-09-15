@@ -2,10 +2,14 @@
     &_top {
         td {
             padding-left: $layout_indent__mobile !important;
-            padding-right: $layout_indent__mobile !important;
+            padding-right: 0 !important;
 
             & + td {
                 padding-left: 0 !important; 
+                padding-right: $layout_indent__mobile !important;
+            }
+            img:first-child {
+                width: 110px !important;
             }
         }
 
@@ -23,14 +27,8 @@
         width:  100% !important;
     }
     &_platform {
-        margin: 0 0 0 5px !important;
-        max-height: 0 !important;
-        width: 0;
-        
-        &__mobile {
-            max-height: inherit !important;
-            vertical-align: -16px !important;
-            width: auto !important;
-        }
+        vertical-align: -16px !important;
+        margin: 0 !important;
+        width: 50px !important;
     }
 }

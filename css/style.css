@@ -4,17 +4,17 @@
 /*Layout*/
 body { background: #f2f2f2; color: #4d4d4d; font: 16px Arial, Helvetica, sans-serif; margin: 0; }
 
-a { color: #e11931; }
+a { color: #e11931; font-family: Arial, Helvetica, sans-serif; }
 
 table { border-collapse: collapse; table-layout: fixed; width: 100%; }
 
-td { vertical-align: top; padding: 0; }
+td { font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; }
 
 ul, ol { padding: 2px 0 18px 15px; }
 
-ul li, ol li { margin: 8px 0; }
+ul li, ol li { margin: 8px 0; font-family: Arial, Helvetica, sans-serif; }
 
-p { margin: 16px 0; }
+p { margin: 16px 0; font-family: Arial, Helvetica, sans-serif; }
 
 .content td { background: #fff; }
 
@@ -118,13 +118,13 @@ h2, .heading-2 { font: bold 24px Arial, Helvetica, sans-serif; }
 
 h2 { margin: 19px 0; }
 
-.heading-2 { color: #ff6600; }
+.heading-2 { color: #00b4b9; }
 
 h3 { font-size: 18px; }
 
 .header td { padding: 0; }
 
-.header_top { background: #ff6600; }
+.header_top { background: #00b4b9; }
 
 .header_top td { border: none; padding: 25px 50px; vertical-align: middle; width: 70%; }
 
@@ -140,25 +140,25 @@ h3 { font-size: 18px; }
 
 .header_top__big .header_link { font-weight: bold; }
 
-.header_platform { margin: 0 0 0 10px; vertical-align: -7px; }
-
-.header_platform__mobile { max-height: 0; width: 0; }
+.header_platform { margin: 0 0 0 5px; vertical-align: -14px; }
 
 .button-wrapper { margin: auto; width: auto; }
 
-.button-wrapper tr td { background: #ff6600; padding: 10px 40px 10px 40px; white-space: nowrap; text-align: center; }
+.button-wrapper tr td { background: #00b4b9; padding: 10px 40px 10px 40px; white-space: nowrap; text-align: center; }
 
 .button-wrapper__big { width: auto; }
 
 .button-wrapper__big tr td { padding: 15px 60px 16px; }
 
-.product .button-wrapper { width: 100%; }
+.product .button-wrapper, .news .button-wrapper { width: 100%; }
 
-.product .button-wrapper tr td { padding: 10px; }
+.product .button-wrapper tr td, .news .button-wrapper tr td { padding: 10px; }
 
 .button { color: #fff; font-size: 18px; font-weight: bold; text-decoration: none; text-transform: uppercase; }
 
 .button-wrapper__big .button { font-size: 24px; }
+
+.product .button, .news .button { max-width: 240px; overflow: hidden; }
 
 .caption { color: #47474d; font-size: 12px; font-weight: 18px; text-align: center; }
 
@@ -166,9 +166,9 @@ h3 { font-size: 18px; }
 
 .caption a { color: #4d4d4d; }
 
-.social td { height: 27px; padding: 0; width: 200px; }
+.social td { height: 27px; padding: 0; width: 256px; }
 
-.social td:nth-child(2) { width: 280px; }
+.social td:nth-child(2) { width: 168px; }
 
 .social tr:nth-child(3) td { width: 340px; }
 
@@ -192,7 +192,7 @@ h3 { font-size: 18px; }
 
 .layout_content { margin: auto; max-width: 680px; width: 680px; }
 
-.price { color: #ff6600; font-size: 48px; line-height: 48px; font-weight: bold; padding: 25px 0 0; border-top: 1px solid #ccc; margin: 0 0 25px; }
+.price { color: #00b4b9; font-size: 48px; line-height: 48px; font-weight: bold; padding: 25px 0 0; border-top: 1px solid #ccc; margin: 0 0 25px; }
 
 .product { width: 280px; }
 
@@ -200,9 +200,9 @@ h3 { font-size: 18px; }
 
 .product tr:nth-child(2) td { font-size: 0; }
 
-.product tr:nth-child(3) td { border-left: 1px solid #ccc; border-right: 1px solid #ccc; }
+.product tr:nth-child(3) td { border-left: 1px solid #ccc; border-right: 1px solid #ccc; padding: 0 20px; }
 
-.product tr:nth-child(4) td { border-left: 1px solid #ff6600; border-right: 1px solid #ff6600; }
+.product tr:nth-child(4) td { border-left: 1px solid #00b4b9; border-right: 1px solid #00b4b9; }
 
 .product__small { margin: auto; width: 180px; }
 
@@ -212,11 +212,9 @@ h3 { font-size: 18px; }
 
 .product_image { width: 100%; }
 
-.product_title { color: #4d4d4d; font-size: 24px; padding: 0 20px; text-transform: uppercase; }
+.product_title { color: #4d4d4d; font-size: 24px; text-transform: uppercase; }
 
 .product__small .product_title { font-size: 18px; }
-
-.product_text { padding: 0 20px; }
 
 .product .button { padding-left: 10px; padding-right: 10px; font-size: 18px; width: 260px; }
 
@@ -246,7 +244,7 @@ h3 { font-size: 18px; }
 
 .news_text { margin: 22px 0 20px; }
 
-.news .button { padding-left: 10px; padding-right: 10px; font-size: 18px; width: 260px; }
+.news .button { padding-left: 10px; padding-right: 10px; font-size: 18px; }
 
 .news-wrapper > td { padding-right: 10px; padding-left: 50px; }
 

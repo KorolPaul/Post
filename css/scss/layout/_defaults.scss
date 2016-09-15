@@ -6,6 +6,7 @@
 }
 a {
     color: $link_color;
+    font-family: $font-family;
 }
 table {
     border-collapse: collapse;
@@ -13,17 +14,20 @@ table {
     width: 100%;
 }
 td {
+    font-family: $font-family;
     vertical-align: top;
     padding: 0;
 }
 ul, 
 ol {
     padding: 2px 0 18px 15px;
-
+    
     li {
         margin: 8px 0;
+        font-family: $font-family;
     }
 }
 p {
     margin: 16px 0;
+    font-family: $font-family;
 }

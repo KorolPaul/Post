@@ -24,20 +24,20 @@
   .footer_logo { margin: 10px 0 0 !important; }
   .footer-menu { margin: 0 0 20px 20px; min-width: 250px; }
   h3 { font-size: 16px; }
-  .header_top td { padding-left: 15px !important; padding-right: 15px !important; }
-  .header_top td + td { padding-left: 0 !important; }
+  .header_top td { padding-left: 15px !important; padding-right: 0 !important; }
+  .header_top td + td { padding-left: 0 !important; padding-right: 15px !important; }
+  .header_top td img:first-child { width: 110px !important; }
   .header_top__big td { padding-top: 35px !important; }
   .header_top__big img:first-child { width: 165px !important; margin-bottom: 10px !important; }
   .header_img { width: 100% !important; }
-  .header_platform { margin: 0 0 0 5px !important; max-height: 0 !important; width: 0; }
-  .header_platform__mobile { max-height: inherit !important; vertical-align: -16px !important; width: auto !important; }
+  .header_platform { vertical-align: -16px !important; margin: 0 !important; width: 50px !important; }
   .button-wrapper td { display: block !important; max-width: 100%; padding-left: 10px !important; padding-right: 10px !important; }
   .button { font-size: 24px !important; }
   .caption td { padding: 10px 15px !important; }
   .social td { width: auto !important; }
-  .social td:nth-child(2) { width: 280px !important; }
+  .social td:nth-child(2) { width: 168px !important; }
   .social tr:nth-child(3) td { width: auto !important; }
-  .layout_content { width: 100% !important; }
+  .layout_content { width: 100% !important; max-width: 100% !important; min-width: 100% !important; }
   .price { margin: 25px 0 !important; text-align: center !important; }
   .product { margin: auto !important; }
   .product td { padding-left: 0 !important; padding-right: 0 !important; }

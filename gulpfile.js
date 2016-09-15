@@ -43,7 +43,7 @@ gulp.task('email', function () {
     var options = {
         encodeSpecialChars: true,
         emailTest : {
-            to : 'korol.paul@gmail.com',
+            to : 'wg.anna5@gmail.com',
             from: 'korol.paul@gmail.com',
             subject : 'WG Emails test',
             nodemailer: {
@@ -149,8 +149,8 @@ gulp.task('email', function () {
         }
     }
 
-    return gulp.src(['templates/ru-wot-3.html'])
-        .pipe(emailBuilder().build())
+    return gulp.src(['templates/na-wows.html'])
+        .pipe(emailBuilder(options).build())
         .pipe(gulp.dest('.'));
 });
 

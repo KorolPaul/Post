@@ -12,6 +12,7 @@
     tr:nth-child(3) td {
         border-left: 1px solid $border_color;
         border-right: 1px solid $border_color;
+        padding: 0 20px;
     }
     tr:nth-child(4) td {
         border-left: 1px solid $header_bg;
@@ -36,15 +37,11 @@
     &_title {
         color: $text_color;
         font-size: $heading-2_font-size;
-        padding: 0 20px;
         text-transform: uppercase;
 
         .product__small  & {
             font-size: 18px;
         }
-    }
-    &_text {
-        padding: 0 20px;
     }
     .button {
         padding-left: 10px;

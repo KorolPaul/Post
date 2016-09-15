@@ -15,7 +15,8 @@
             padding: 15px 60px 16px;
         }
     }
-    .product & {
+    .product &,
+    .news & {
         width: 100%;
 
         tr td {
@@ -32,5 +33,10 @@
 
     .button-wrapper__big & {
         font-size: 24px;
+    }
+    .product &,
+    .news & {
+        max-width: 240px;
+        overflow: hidden;
     }
 }
