@@ -25,6 +25,14 @@
     }
     &_link {
         display: block !important;
+        width: 100% !important;
+
+        tbody, tr {
+            display: block;
+        }
+        td {
+            display: inline-block;
+        }
     }
     &_menu {
         & > td {

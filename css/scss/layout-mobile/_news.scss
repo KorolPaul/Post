@@ -1,9 +1,10 @@
 .news {
     margin: auto !important;
+    width: 100% !important;
 
     td {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-left: $layout_indent__mobile !important;
+        padding-right: $layout_indent__mobile !important;
     }
     .button {
         font-size: 16px !important;

@@ -115,18 +115,18 @@ gulp.task('email', function () {
     var options_mailru = {
         encodeSpecialChars: true,
         emailTest : {
-            to : 'wg.anna@mail.ru',
-            from: 'wg.anna@mail.ru',
+            to : 'savchenko_diana@mail.ru',
+            from: 'korol.paul@gmail.com',
             subject : 'WG Emails test',
             nodemailer: {
                 transporter: {
-                    service: 'mailru',
+                    service: 'gmail',
                     auth: {
-                        user: 'wg.anna@mail.ru',
-                        pass: 'crm_test'
+                        user: 'korol.paul@gmail.com',
+                        pass: '192192192'
                     }
-                    }, 
-                    defaults: {} 
+                }, 
+                defaults: {} 
             }
         }
     }
@@ -149,8 +149,8 @@ gulp.task('email', function () {
         }
     }
 
-    return gulp.src(['templates/na-wows.html'])
-        .pipe(emailBuilder(options).build())
+    return gulp.src(['templates/ru-wot-3.html'])
+        .pipe(emailBuilder().build())
         .pipe(gulp.dest('.'));
 });
 

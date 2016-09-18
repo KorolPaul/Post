@@ -63,6 +63,9 @@
         &__noindent-top {
             padding-top: 0;
         }
+        &__small-indent {
+            padding-bottom: $layout_indent/2;
+        }
     }
     &_title {
         font-size: 18px;
@@ -92,5 +95,8 @@
         td {
             padding-right: 15px;
         }
+    }
+    &_image {
+        min-width: 100%;
     }
 }

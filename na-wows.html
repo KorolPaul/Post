@@ -25,7 +25,9 @@
   .footer_bottom tr { display: block !important; }
   .footer_bottom > tbody > tr > td { padding: 15px !important; }
   .footer_bottom-wrapper > tbody > tr > td { display: block !important; width: auto !important; }
-  .footer_link { display: block !important; }
+  .footer_link { display: block !important; width: 100% !important; }
+  .footer_link tbody, .footer_link tr { display: block; }
+  .footer_link td { display: inline-block; }
   .footer_menu > td { padding: 0 20px !important; text-align: center !important; }
   .footer_lang-wrapper { text-align: center !important; margin: 20px auto 0 !important; }
   .footer_lang-wrapper td { padding: 0 3px !important; }
@@ -54,8 +56,8 @@
   .product__small { width: auto !important; margin: 0 15px 0 !important; }
   .products-wrapper > td { display: block !important; padding: 0 0 30px !important; }
   .products-wrapper__small > td { padding-bottom: 20px !important; }
-  .news { margin: auto !important; }
-  .news td { padding-left: 0 !important; padding-right: 0 !important; }
+  .news { margin: auto !important; width: 100% !important; }
+  .news td { padding-left: 15px !important; padding-right: 15px !important; }
   .news .button { font-size: 16px !important; padding-bottom: 9px !important; }
   .news-wrapper > td { display: block !important; padding: 0 0 30px !important; } }
 
@@ -69,7 +71,7 @@
                 <table class="layout_content" width="680" align="center" style="border-collapse: collapse; table-layout: fixed; width: 680px; margin: auto; max-width: 680px;">
                     <tr>
                         <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0;">
-                            <table class="header" style="border-collapse: collapse; table-layout: fixed; width: 100%;">
+                            <table class="header" style="border-collapse: collapse; table-layout: fixed; width: 100%; min-width: 100% td; min-width-padding: 0;">
                                 <tr class="header_top header_top__big" style="background: #00b4b9;">
                                     <td colspan="2" style="font-family: Arial, Helvetica, sans-serif; vertical-align: middle; padding: 25px 50px; border: none; width: 70%; padding-top: 40px; padding-bottom: 35px; text-align: center;">
                                         <img src="http://muscles.by/post/logo-wows-big.png" alt="" style="vertical-align: middle; display: block; margin: 0 auto 13px;">
@@ -80,17 +82,17 @@
                                 </tr>
                                 <tr>
                                     <td colspan="2" style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0;">
-                                        <img class="header_img" width="680" src="http://muscles.by/post/header-img.jpg" alt="">
+                                        <img class="header_img" width="680" src="http://muscles.by/post/header-img.jpg" alt="" style="min-width: 100%;">
                                     </td>
                                 </tr>
                             </table>
                             <table class="content" style="border-collapse: collapse; table-layout: fixed; width: 100%;">
                                 <tr>
                                     <td colspan="2" style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; background: #fff; padding-left: 50px; padding-right: 50px;">
-                                        <h2 style="font: bold 24px Arial, Helvetica, sans-serif; margin: 19px 0;">World famous free-to-play hit rolled out to PlayStation 4 on January 19.&#160;</h2>
+                                        <h2 style="font: bold 24px Arial, Helvetica, sans-serif; margin: 19px 0;">World famous free-to-play hit rolled out to PlayStation 4 on January 19. </h2>
                                         <p style="margin: 16px 0; font-family: Arial, Helvetica, sans-serif;">A superb effort by Chicago-Baltimore production team was backed by Online Presence folks, as always. </p>
                                         <p style="margin: 16px 0; font-family: Arial, Helvetica, sans-serif;">A superb effort by Chicago-Baltimore production team was backed by Online Presence folks, as always. A superb effort by Chicago-Baltimore production team was backed by Online Presence folks, as always. </p>
-                                        <img class="content_image" width="580" src="http://muscles.by/post/tanks.jpg" alt="" style="margin: 15px 0 0px;">
+                                        <img class="content_image" width="580" src="http://muscles.by/post/tanks.jpg" alt="" style="margin: 15px 0 0px; min-width: 100%;">
                                     </td>
                                 </tr>
                                 <tr>
@@ -150,15 +152,15 @@
                                     </td>
                                 </tr>
                             </table>
-                            <table class="social" style="border-collapse: collapse; table-layout: fixed; width: 100%;">
+                            <table class="social" style="border-collapse: collapse; table-layout: fixed; width: 100%; min-width: 100%;">
                                 <tr class="social_white social_top" style="background: #fff;">
-                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 72px; width: 256px; background: #fff;"></td>
-                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 72px; background: #fff; width: 168px;"></td>
-                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 72px; width: 256px; background: #fff;"></td>
+                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 72px; width: 256px; min-width: 256px; background: #fff;">&nbsp;</td>
+                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 72px; background: #fff; width: 168px; min-width: 168px;">&nbsp;</td>
+                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 72px; width: 256px; min-width: 256px; background: #fff;">&nbsp;</td>
                                 </tr>
                                 <tr>
-                                    <td class="social_white" style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; background: #fff; padding: 0; height: 27px; width: 256px;"></td>
-                                    <td rowspan="2" class="social_wrapper" style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; text-align: center; white-space: nowrap; background: #d9d9d9; padding: 0; height: 27px; width: 168px;">
+                                    <td class="social_white" style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; background: #fff; padding: 0; height: 27px; width: 256px; min-width: 256px;">&nbsp;</td>
+                                    <td rowspan="2" class="social_wrapper" style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; text-align: center; white-space: nowrap; background: #d9d9d9; padding: 0; height: 27px; width: 168px; min-width: 168px;">
                                         <a href="#" class="social_link social_link__tw" style="color: #e11931; font-family: Arial, Helvetica, sans-serif; font-size: 0; line-height: 0;">
                                             <img class="social_link-icon" src="http://muscles.by/post/social/twitter.png" alt="">
                                         </a>
@@ -169,22 +171,22 @@
                                             <img class="social_link-icon" src="http://muscles.by/post/social/youtube.png" alt="">
                                         </a>
                                     </td>
-                                    <td class="social_white" style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; background: #fff; padding: 0; height: 27px; width: 256px;"></td>
+                                    <td class="social_white" style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; background: #fff; padding: 0; height: 27px; width: 256px; min-width: 256px;">&nbsp;</td>
                                 </tr>
                                 <tr class="social_gray">
-                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 27px; background: #d9d9d9; width: 340px;"></td>
-                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 27px; background: #d9d9d9; width: 340px;"></td>
+                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 27px; min-width: 256px; background: #d9d9d9; width: 340px;">&nbsp;</td>
+                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 27px; background: #d9d9d9; min-width: 168px; width: 340px;">&nbsp;</td>
                                 </tr>
                                 <tr class="social_gray" style="background: #d9d9d9;">
-                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 27px; width: 256px; background: #d9d9d9;"></td>
-                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 27px; background: #d9d9d9; width: 168px;"></td>
-                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 27px; width: 256px; background: #d9d9d9;"></td>
+                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 27px; width: 256px; min-width: 256px; background: #d9d9d9;">&nbsp;</td>
+                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 27px; background: #d9d9d9; width: 168px; min-width: 168px;">&nbsp;</td>
+                                    <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0; height: 27px; width: 256px; min-width: 256px; background: #d9d9d9;">&nbsp;</td>
                                 </tr>
                             </table>
                             <table class="footer" style="border-collapse: collapse; table-layout: fixed; width: 100%; background: #d9d9d9;">
                                 <tr class="footer_menu"> 
                                     <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: top; padding: 0 100px;">
-                                        <table class="footer_link" align="center" style="border-collapse: collapse; table-layout: fixed; width: auto; float: left; margin: auto;">
+                                        <table class="footer_link" align="center" style="border-collapse: collapse; table-layout: fixed; width: auto; display: inline-block; margin: auto;">
                                             <tr>
                                                 <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: middle; padding: 0 5px 15px 0;">
                                                     <img class="footer_link-icon" src="http://muscles.by/post/service.png" alt="" style="vertical-align: -3px;">
@@ -194,7 +196,7 @@
                                                 </td>
                                             </tr>
                                         </table>
-                                        <table class="footer_link" align="center" style="border-collapse: collapse; table-layout: fixed; width: auto; float: left; margin: auto;">
+                                        <table class="footer_link" align="center" style="border-collapse: collapse; table-layout: fixed; width: auto; display: inline-block; margin: auto;">
                                             <tr>
                                                 <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: middle; padding: 0 5px 15px 0;">
                                                     <img class="footer_link-icon" src="http://muscles.by/post/eula.png" alt="" style="vertical-align: -3px;">
@@ -204,7 +206,7 @@
                                                 </td>
                                             </tr>
                                         </table>
-                                        <table class="footer_link" align="center" style="border-collapse: collapse; table-layout: fixed; width: auto; float: left; margin: auto;">
+                                        <table class="footer_link" align="center" style="border-collapse: collapse; table-layout: fixed; width: auto; display: inline-block; margin: auto;">
                                             <tr>
                                                 <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: middle; padding: 0 5px 15px 0;">
                                                     <img class="footer_link-icon" src="http://muscles.by/post/policy.png" alt="" style="vertical-align: -3px;">
@@ -214,7 +216,7 @@
                                                 </td>
                                             </tr>
                                         </table>
-                                        <table class="footer_link" align="center" style="border-collapse: collapse; table-layout: fixed; width: auto; float: left; margin: auto;">
+                                        <table class="footer_link" align="center" style="border-collapse: collapse; table-layout: fixed; width: auto; display: inline-block; margin: auto;">
                                             <tr>
                                                 <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: middle; padding: 0 5px 15px 0;">
                                                     <img class="footer_link-icon" src="http://muscles.by/post/refer.png" alt="" style="vertical-align: -3px;">
@@ -283,7 +285,7 @@
                                             </tr>
                                             <tr>
                                                 <td style="font-family: Arial, Helvetica, sans-serif; vertical-align: middle; padding: 50px 100px 50px;">
-                                                    <p class="footer_copyright" style="font-family: Arial, Helvetica, sans-serif; margin: 0; font-size: 12px; line-height: 18px; margin-bottom: 0;">All images, content, and text &#169; 2009-2015 Wargaming Group Limited. All rights reserved.&#169; Wargaming America Inc., PO Box 8250 Emeryville, CA 94662 USA</p>
+                                                    <p class="footer_copyright" style="font-family: Arial, Helvetica, sans-serif; margin: 0; font-size: 12px; line-height: 18px; margin-bottom: 0;">All images, content, and text © 2009-2015 Wargaming Group Limited. All rights reserved.© Wargaming America Inc., PO Box 8250 Emeryville, CA 94662 USA</p>
                                                 </td>
                                             </tr>
                                         </table>

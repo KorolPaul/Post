@@ -1,4 +1,5 @@
 .header {
+    min-width: 100%
     td {
         padding: 0;
     }
@@ -47,5 +48,8 @@
     &_platform {
         margin: 0 0 0 5px;
         vertical-align: -14px;
+    }
+    &_img {
+        min-width: 100%;
     }
 }
