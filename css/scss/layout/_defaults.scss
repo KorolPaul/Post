@@ -14,12 +14,14 @@ table {
     width: 100%;
 }
 td {
+    color: $text_color;
     font-family: $font-family;
     vertical-align: top;
     padding: 0;
 }
 ul, 
 ol {
+    color: $text_color;
     padding: 2px 0 18px 15px;
     
     li {
@@ -28,6 +30,7 @@ ol {
     }
 }
 p {
+    color: $text_color;
     margin: 16px 0;
     font-family: $font-family;
 }

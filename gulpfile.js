@@ -43,7 +43,7 @@ gulp.task('email', function () {
     var options = {
         encodeSpecialChars: true,
         emailTest : {
-            to : 'wg.anna5@gmail.com',
+            to : 'korol.paul@gmail.com',
             from: 'korol.paul@gmail.com',
             subject : 'WG Emails test',
             nodemailer: {

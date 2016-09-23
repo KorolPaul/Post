@@ -1,5 +1,6 @@
 .header {
-    min-width: 100%
+    min-width: 100%;
+    color: #fff;
     td {
         padding: 0;
     }
@@ -16,6 +17,7 @@
             & + td {
                 text-align: right;
                 width: 30%;
+                color: #fff;
             }
         }
         img:first-child {
@@ -27,6 +29,7 @@
                 padding-top: 40px;
                 padding-bottom: 35px;
                 text-align: center;
+                color: #fff;
             }
             img:first-child {
                 vertical-align: middle;

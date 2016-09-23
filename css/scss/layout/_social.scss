@@ -9,6 +9,7 @@
         min-width: 200px;
     }    
     td:nth-child(2) {
+        font-size: 0;
         //width: 168px;
         min-width: 280px;
         width: 280px;
@@ -20,7 +21,7 @@
     }
     &_top {
         td {
-            height: 72px;
+            padding: 23px 0;
         }
     }
     &_bottom {

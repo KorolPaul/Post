@@ -15,6 +15,8 @@
   .footer_top td { display: table-row !important; }
   .footer_bottom { padding: 0 !important; text-align: center; }
   .footer_bottom tr { display: block !important; }
+  .footer_bottom td { display: block !important; }
+  .footer_bottom td:first-child { padding-top: 50px !important; }
   .footer_bottom > tbody > tr > td { padding: 15px !important; }
   .footer_bottom-wrapper > tbody > tr > td { display: block !important; width: auto !important; }
   .footer_link { display: block !important; width: 100% !important; }
@@ -31,7 +33,7 @@
   .header_top__big td { padding-top: 35px !important; }
   .header_top__big img:first-child { width: 165px !important; margin-bottom: 10px !important; }
   .header_img { width: 100% !important; }
-  .header_platform { vertical-align: -13px !important; margin: 0 !important; width: 50px !important; }
+  .header_platform { margin: 0 !important; width: 50px !important; }
   .button-wrapper td { display: block !important; max-width: 100%; padding-left: 10px !important; padding-right: 10px !important; }
   .button { font-size: 24px !important; }
   .caption td { padding: 10px 15px !important; }

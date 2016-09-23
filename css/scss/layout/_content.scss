@@ -33,6 +33,8 @@
             border-bottom: 1px solid $border_color;
             padding-bottom: 35px;
             width: 40%;
+            font-weight: normal;
+            text-transform: none;
 
             &:first-child {
                 padding-left: $layout_indent;
@@ -46,6 +48,9 @@
     }
     &_bordered-cell {
         border-top: 1px solid $border_color;
+        text-transform: none;
+        font-weight: normal;
+        font-size: $font-size;
 
         &__indent {
             padding-top: 20px;

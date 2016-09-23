@@ -13,6 +13,13 @@
         tr {
             display: block !important;
         }
+        td {
+            display: block !important;
+            
+            &:first-child {
+                padding-top: 50px !important;
+            }
+        }
         & > tbody > tr > td {
             padding: $layout_indent__mobile !important;
         }

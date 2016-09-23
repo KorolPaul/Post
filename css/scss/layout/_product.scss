@@ -43,6 +43,11 @@
             font-size: 18px;
         }
     }
+    &_text {
+        text-transform: none;
+        font-weight: normal;
+        font-size: $font-size;
+    }
     .button {
         padding-left: 10px;
         padding-right: 10px;

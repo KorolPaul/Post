@@ -22,7 +22,7 @@
             margin: -15px 0 0;
         }
         td {
-            vertical-align: middle;;
+            vertical-align: middle;
             //padding: 50px 100px 50px;
             padding: 50px 50px 50px;
             //width: 50%;
@@ -54,6 +54,7 @@
         font-size: 12px;
         line-height: 18px;
         margin: 0;
+        white-space: normal;
     }
     &_link {
         width: auto;
@@ -66,6 +67,8 @@
         td {
             padding: 0 5px 15px 0;
             vertical-align: middle;
+            font-size: 18px;
+            font-weight: bold;
         }
         td + td {
             padding-right: 20px;
@@ -94,6 +97,9 @@
     &_logo {
         margin: 0 30px 0 0;
         vertical-align: middle;
+    }
+    td {
+         display: table-cell;
     }
 }
 

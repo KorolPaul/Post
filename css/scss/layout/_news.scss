@@ -4,6 +4,7 @@
     td {
         padding: 0;
         text-align: left;
+        text-transform: none;
     }
 
     &_image {
@@ -20,6 +21,8 @@
     }
     &_text {
         margin: 22px 0 20px;
+        font-weight: normal;
+        font-size: $font-size;
     }
     .button {
         padding-left: 10px;
